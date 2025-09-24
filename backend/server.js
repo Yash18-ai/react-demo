@@ -8,10 +8,23 @@ const app = express();
 app.use(cors());
 
 const server = http.createServer(app);
+
+const allowedOrigins = [
+  "https://react-demo-remu.vercel.app", // Vercel frontend
+  "http://localhost:3000"               // local dev
+];
+
+// const io = new Server(server, {
+//   cors: {
+//     // origin: "http://localhost:3000/",
+//     origin: "http://192.168.1.98:3000/",
+//     methods: ["GET", "POST"],
+//   },
+// });
+
 const io = new Server(server, {
   cors: {
-    // origin: "http://localhost:3000/",
-    origin: "http://192.168.1.98:3000/",
+    origin: allowedOrigins,
     methods: ["GET", "POST"],
   },
 });

@@ -14,8 +14,13 @@ import {
   receivePinUpdate,
 } from "../features/messages/messagesSlice";
 
-const SOCKET_URL = import.meta.env.VITE_SOCKET_URL || "http://192.168.1.98:5001";
+// const SOCKET_URL = import.meta.env.VITE_SOCKET_URL || "http://192.168.1.98:5001";
+// export const socket = io(SOCKET_URL, { transports: ["websocket"] });
+const SOCKET_URL =
+  import.meta.env.VITE_SOCKET_URL || window.location.origin.replace(/^http/, "ws");
+
 export const socket = io(SOCKET_URL, { transports: ["websocket"] });
+
 
 export const initSocket = (store) => {
   socket.on("connect", () => {
