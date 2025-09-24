@@ -5,7 +5,7 @@ export const fetchCourses = createAsyncThunk('courses/fetchCourses', async () =>
     try {
         // const response = await axios.get("http://localhost:5000/courses");
         // const response = await axios.get("http://192.168.1.98:5000/courses");
-        const apiBase = process.env.REACT_APP_API_URL || "";
+        const apiBase = import.meta.env.VITE_API_URL || "";
         const url = apiBase ? `${apiBase}/courses` : "/db.json";
         const response = await axios.get(url);
 
