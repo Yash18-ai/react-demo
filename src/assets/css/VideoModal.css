@@ -1,0 +1,139 @@
+.video-modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 2000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    backdrop-filter: blur(4px);
+    animation: fadeIn 0.2s ease;
+}
+
+.modal-dialog {
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    transform: scale(1);
+}
+
+.video-modal-content {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
+    background: #fff;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-header {
+    background: #f8f9fa;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 12px 16px;
+}
+
+.modal-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.btn-close {
+    /* background: transparent; */
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.2s ease;
+}
+
+.btn-close:hover {
+    opacity: 1;
+}
+
+.modal-body {
+    padding: 16px;
+    overflow-y: auto;
+}
+
+.video-description {
+    white-space: pre-wrap;
+    font-size: 0.95rem;
+    color: #444;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.chapter-item {
+    padding: 8px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.25s ease, transform 0.15s ease;
+    font-size: 0.9rem;
+}
+
+.chapter-item:hover {
+    background: rgba(0, 123, 255, 0.08);
+    transform: translateX(3px);
+}
+
+.chapter-item strong {
+    color: #007bff;
+    margin-right: 6px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.custom-scrubber-container {
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .progress-bar {
+    position: relative;
+    width: 100%;
+    /* height: 10px; */
+    background: #444;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .progress-filled {
+    position: absolute;
+    height: 100%;
+    background: #ff0000; /* red color */
+    border-radius: 5px 0 0 5px;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+  }
+  
+  .progress-thumb {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 18px;
+    height: 18px;
+    background: #ff0000;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 6px rgba(255, 0, 0, 0.7);
+  }
+  
+  .time-display {
+    margin-top: 6px;
+    font-family: monospace;
+    font-size: 0.9rem;
+    color: #ddd;
+    text-align: right;
+    user-select: none;
+  }
+  

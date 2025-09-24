@@ -1,0 +1,8 @@
+.container h2 {
+    font-weight: bold;
+  }
+  
+  form .form-control {
+    max-width: 300px;
+  }
+  

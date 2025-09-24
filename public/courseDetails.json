@@ -1,0 +1,578 @@
+{
+   "courseDetails": [
+    {
+        "2776760": {
+          "what_youll_learn": [
+            "Master Python with 100 real-world projects",
+            "Learn data science, automation, and app development",
+            "Build games, websites, and mobile apps",
+            "Become a proficient Python developer"
+          ],
+          "explore_related_topics": ["Python", "Automation", "Data Science", "Flask"],
+          "this_course_includes": [
+            "56.5 hours on-demand video",
+            "592 lectures",
+            "Certificate of completion",
+            "Lifetime access"
+          ],
+          "course_content": [
+            {
+              "label": "Day 1-30: Basics",
+              "content": [
+                { "title": "Variables and Data Types" },
+                { "title": "Control Flow" }
+              ]
+            },
+            {
+              "label": "Day 31-60: Intermediate",
+              "content": [
+                { "title": "Functions and OOP" },
+                { "title": "Web Scraping" }
+              ]
+            },
+            {
+              "label": "Day 61-100: Projects",
+              "content": [
+                { "title": "Portfolio Website" },
+                { "title": "Capstone Project" }
+              ]
+            }
+          ]
+        },
+        "1234567": {
+          "what_youll_learn": [
+            "Understand JavaScript fundamentals",
+            "Manipulate the DOM",
+            "Work with arrays and objects",
+            "Build simple interactive pages"
+          ],
+          "explore_related_topics": ["JavaScript", "Web Development", "Front-End"],
+          "this_course_includes": [
+            "10 hours video",
+            "50 lectures",
+            "Certificate of completion",
+            "Lifetime access"
+          ],
+          "course_content": [
+            {
+              "label": "Getting Started",
+              "content": [
+                { "title": "JavaScript Setup" },
+                { "title": "Hello World" }
+              ]
+            },
+            {
+              "label": "Core Concepts",
+              "content": [
+                { "title": "Variables and Functions" },
+                { "title": "Loops and Conditions" }
+              ]
+            },
+            {
+              "label": "Mini Projects",
+              "content": [
+                { "title": "To-Do List" },
+                { "title": "Tip Calculator" }
+              ]
+            }
+          ]
+        },
+        "2345678": {
+          "what_youll_learn": [
+            "Build mobile apps using React Native",
+            "Use Expo for development",
+            "Deploy apps to App Store and Play Store",
+            "Understand navigation and components"
+          ],
+          "explore_related_topics": ["React Native", "Mobile Apps", "Expo"],
+          "this_course_includes": [
+            "15 hours video",
+            "80 lectures",
+            "Certificate of completion",
+            "Lifetime access"
+          ],
+          "course_content": [
+            {
+              "label": "Introduction to React Native",
+              "content": [
+                { "title": "Installing Expo CLI" },
+                { "title": "First React Native App" }
+              ]
+            },
+            {
+              "label": "Core Concepts",
+              "content": [
+                { "title": "Components & Props" },
+                { "title": "Navigation & Stack" }
+              ]
+            },
+            {
+              "label": "Final Projects",
+              "content": [
+                { "title": "Workout Tracker App" },
+                { "title": "Food Delivery UI" }
+              ]
+            }
+          ]
+        },
+        "3456789": {
+          "what_youll_learn": [
+            "Understand the data science workflow",
+            "Analyze data with Python and R",
+            "Apply real-world business problems",
+            "Visualize and communicate insights"
+          ],
+          "explore_related_topics": ["Data Science", "Python", "R", "Visualization"],
+          "this_course_includes": [
+            "30 hours video",
+            "120 lectures",
+            "Certificate of completion",
+            "Lifetime access"
+          ],
+          "course_content": [
+            {
+              "label": "Introduction",
+              "content": [
+                { "title": "Why Data Science?" },
+                { "title": "Setting up Tools" }
+              ]
+            },
+            {
+              "label": "Core Tools",
+              "content": [
+                { "title": "Python for Data Analysis" },
+                { "title": "R Basics" }
+              ]
+            },
+            {
+              "label": "Case Studies",
+              "content": [
+                { "title": "Marketing Analytics" },
+                { "title": "Sales Forecasting" }
+              ]
+            }
+          ]
+        },
+        "4567890": {
+          "what_youll_learn": [
+            "Master Machine Learning algorithms",
+            "Implement in both Python and R",
+            "Understand supervised & unsupervised learning",
+            "Apply ML to real datasets"
+          ],
+          "explore_related_topics": ["Machine Learning", "AI", "Python", "R"],
+          "this_course_includes": [
+            "40 hours video",
+            "150 lectures",
+            "Certificate of completion",
+            "Lifetime access"
+          ],
+          "course_content": [
+            {
+              "label": "Machine Learning Basics",
+              "content": [
+                { "title": "Regression Models" },
+                { "title": "Classification Models" }
+              ]
+            },
+            {
+              "label": "Advanced ML",
+              "content": [
+                { "title": "SVM and Decision Trees" },
+                { "title": "Clustering Techniques" }
+              ]
+            },
+            {
+              "label": "Deployment",
+              "content": [
+                { "title": "Model Evaluation" },
+                { "title": "Saving and Deploying Models" }
+              ]
+            }
+          ]
+        },
+        "5678901": {
+          "what_youll_learn": [
+            "Build full-stack web applications",
+            "Master HTML, CSS, JS, Node.js",
+            "Use Express and MongoDB",
+            "Create responsive web designs"
+          ],
+          "explore_related_topics": ["HTML", "CSS", "JavaScript", "Node.js"],
+          "this_course_includes": [
+            "50 hours video",
+            "200 lectures",
+            "Certificate of completion",
+            "Lifetime access"
+          ],
+          "course_content": [
+            {
+              "label": "Front-End Development",
+              "content": [
+                { "title": "HTML5 Crash Course" },
+                { "title": "CSS Grid & Flexbox" }
+              ]
+            },
+            {
+              "label": "JavaScript & DOM",
+              "content": [
+                { "title": "JS Functions & Events" },
+                { "title": "AJAX and APIs" }
+              ]
+            },
+            {
+              "label": "Back-End",
+              "content": [
+                { "title": "Node.js + Express.js" },
+                { "title": "MongoDB Integration" }
+              ]
+            }
+          ]
+        },
+        "6789012": {
+          "what_youll_learn": [
+            "Build iOS apps using Swift 5",
+            "Understand UIKit and SwiftUI",
+            "Use Xcode and Interface Builder",
+            "Publish apps to App Store"
+          ],
+          "explore_related_topics": ["Swift", "iOS Development", "Xcode", "UI Design"],
+          "this_course_includes": [
+            "45 hours video",
+            "180 lectures",
+            "Certificate of completion",
+            "Lifetime access"
+          ],
+          "course_content": [
+            {
+              "label": "Swift Basics",
+              "content": [
+                { "title": "Variables and Optionals" },
+                { "title": "Functions and Loops" }
+              ]
+            },
+            {
+              "label": "iOS UI Development",
+              "content": [
+                { "title": "Storyboards and AutoLayout" },
+                { "title": "SwiftUI Basics" }
+              ]
+            },
+            {
+              "label": "Publishing",
+              "content": [
+                { "title": "TestFlight and App Store" },
+                { "title": "App Signing and Certificates" }
+              ]
+            }
+          ]
+        },
+        "7890123": {
+          "what_youll_learn": [
+            "Understand all areas of digital marketing",
+            "Use tools like Google Ads, Facebook Ads",
+            "Improve SEO and email campaigns",
+            "Track analytics and performance"
+          ],
+          "explore_related_topics": ["Digital Marketing", "SEO", "Social Media", "Analytics"],
+          "this_course_includes": [
+            "60 hours video",
+            "220 lectures",
+            "Certificate of completion",
+            "Lifetime access"
+          ],
+          "course_content": [
+            {
+              "label": "Marketing Basics",
+              "content": [
+                { "title": "Marketing Funnel" },
+                { "title": "Customer Avatars" }
+              ]
+            },
+            {
+              "label": "SEO & Ads",
+              "content": [
+                { "title": "Google Ads Campaign" },
+                { "title": "Facebook & Instagram Ads" }
+              ]
+            },
+            {
+              "label": "Tracking & Growth",
+              "content": [
+                { "title": "Google Analytics" },
+                { "title": "Conversion Optimization" }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "8901234": {
+          "what_youll_learn": [
+            "Learn Python from beginner to advanced",
+            "Work with Python libraries and tools",
+            "Build real-world Python applications",
+            "Understand Object-Oriented Programming"
+          ],
+          "explore_related_topics": ["Python 3", "OOP", "Desktop Apps", "Games"],
+          "this_course_includes": [
+            "35 hours video",
+            "150 lectures",
+            "Certificate of completion",
+            "Lifetime access"
+          ],
+          "course_content": [
+            {
+              "label": "Python Basics",
+              "content": [
+                { "title": "Python Syntax" },
+                { "title": "Data Types and Variables" }
+              ]
+            },
+            {
+              "label": "Intermediate Python",
+              "content": [
+                { "title": "File Handling" },
+                { "title": "Functions and Modules" }
+              ]
+            },
+            {
+              "label": "Advanced Projects",
+              "content": [
+                { "title": "Flask Web App" },
+                { "title": "Tic-Tac-Toe Game" }
+              ]
+            }
+          ]
+        },
+        "9012345": {
+          "what_youll_learn": [
+            "Write advanced MySQL queries",
+            "Design and build relational databases",
+            "Use MySQL with real-world projects",
+            "Understand joins, subqueries, and indexes"
+          ],
+          "explore_related_topics": ["SQL", "MySQL", "Database Design", "Backend"],
+          "this_course_includes": [
+            "41.5 hours video",
+            "320 lectures",
+            "Certificate of completion",
+            "Lifetime access"
+          ],
+          "course_content": [
+            {
+              "label": "MySQL Fundamentals",
+              "content": [
+                { "title": "Creating Databases" },
+                { "title": "Basic Queries" }
+              ]
+            },
+            {
+              "label": "Advanced Queries",
+              "content": [
+                { "title": "Joins and Aggregations" },
+                { "title": "Stored Procedures" }
+              ]
+            },
+            {
+              "label": "Project Work",
+              "content": [
+                { "title": "Building a Blog Database" },
+                { "title": "Advanced Filtering and Indexing" }
+              ]
+            }
+          ]
+        },
+        "9123456": {
+          "what_youll_learn": [
+            "Understand core AWS services",
+            "Deploy and manage cloud applications",
+            "Prepare for the AWS Solutions Architect exam",
+            "Learn about EC2, S3, VPC, IAM, and more"
+          ],
+          "explore_related_topics": ["AWS", "Cloud Computing", "DevOps", "Certification"],
+          "this_course_includes": [
+            "39 hours video",
+            "250 lectures",
+            "Certificate of completion",
+            "Lifetime access"
+          ],
+          "course_content": [
+            {
+              "label": "AWS Basics",
+              "content": [
+                { "title": "Setting up AWS Free Tier" },
+                { "title": "IAM Users & Roles" }
+              ]
+            },
+            {
+              "label": "Core AWS Services",
+              "content": [
+                { "title": "EC2 & EBS" },
+                { "title": "S3 Buckets" }
+              ]
+            },
+            {
+              "label": "Exam Preparation",
+              "content": [
+                { "title": "Exam Strategy" },
+                { "title": "Practice Questions" }
+              ]
+            }
+          ]
+        },
+        "9234567": {
+          "what_youll_learn": [
+            "Use Git for version control",
+            "Work with GitHub repositories",
+            "Collaborate using branches and pull requests",
+            "Build confidence with real-world examples"
+          ],
+          "explore_related_topics": ["Git", "GitHub", "Version Control", "CI/CD"],
+          "this_course_includes": [
+            "12 hours video",
+            "130 lectures",
+            "Certificate of completion",
+            "Lifetime access"
+          ],
+          "course_content": [
+            {
+              "label": "Getting Started",
+              "content": [
+                { "title": "Installing Git & GitHub Setup" },
+                { "title": "First Repository" }
+              ]
+            },
+            {
+              "label": "Branching & Merging",
+              "content": [
+                { "title": "Working with Branches" },
+                { "title": "Merge Conflicts" }
+              ]
+            },
+            {
+              "label": "Advanced Workflow",
+              "content": [
+                { "title": "Pull Requests" },
+                { "title": "Using GitHub Actions" }
+              ]
+            }
+          ]
+        },
+        "9345678": {
+          "what_youll_learn": [
+            "Build and run Docker containers",
+            "Deploy apps using Kubernetes",
+            "Understand volumes, networking, and clusters",
+            "Work with Docker Compose and Helm"
+          ],
+          "explore_related_topics": ["Docker", "Kubernetes", "DevOps", "Microservices"],
+          "this_course_includes": [
+            "22.5 hours video",
+            "190 lectures",
+            "Certificate of completion",
+            "Lifetime access"
+          ],
+          "course_content": [
+            {
+              "label": "Docker Basics",
+              "content": [
+                { "title": "Dockerfile and Images" },
+                { "title": "Container Lifecycle" }
+              ]
+            },
+            {
+              "label": "Kubernetes Introduction",
+              "content": [
+                { "title": "Deployments and Services" },
+                { "title": "ConfigMaps and Secrets" }
+              ]
+            },
+            {
+              "label": "Project Deployment",
+              "content": [
+                { "title": "CI/CD Pipelines" },
+                { "title": "Helm Charts" }
+              ]
+            }
+          ]
+        },
+        "9456789": {
+          "what_youll_learn": [
+            "Build full-featured applications using Node.js",
+            "Use Express and MongoDB",
+            "Implement authentication and REST APIs",
+            "Understand async JS and deployment"
+          ],
+          "explore_related_topics": ["Node.js", "MongoDB", "Backend", "APIs"],
+          "this_course_includes": [
+            "35 hours video",
+            "145 lectures",
+            "Certificate of completion",
+            "Lifetime access"
+          ],
+          "course_content": [
+            {
+              "label": "Node.js Essentials",
+              "content": [
+                { "title": "Creating Your First Server" },
+                { "title": "Working with Modules" }
+              ]
+            },
+            {
+              "label": "MongoDB Integration",
+              "content": [
+                { "title": "CRUD Operations" },
+                { "title": "Mongoose Models" }
+              ]
+            },
+            {
+              "label": "Auth & APIs",
+              "content": [
+                { "title": "JWT Authentication" },
+                { "title": "RESTful API Creation" }
+              ]
+            }
+          ]
+        },
+        "9567890": {
+          "what_youll_learn": [
+            "Create 2D games with Unity and C#",
+            "Understand game physics and mechanics",
+            "Build and export games to multiple platforms",
+            "Master Unity tools and animation"
+          ],
+          "explore_related_topics": ["Unity", "C#", "Game Development", "2D Games"],
+          "this_course_includes": [
+            "50 hours video",
+            "200 lectures",
+            "Certificate of completion",
+            "Lifetime access"
+          ],
+          "course_content": [
+            {
+              "label": "Unity Setup",
+              "content": [
+                { "title": "Installing Unity Hub" },
+                { "title": "First 2D Game Project" }
+              ]
+            },
+            {
+              "label": "Game Logic & C#",
+              "content": [
+                { "title": "Player Movement" },
+                { "title": "Score System" }
+              ]
+            },
+            {
+              "label": "Animation & Build",
+              "content": [
+                { "title": "Sprite Animation" },
+                { "title": "Exporting Game" }
+              ]
+            }
+          ]
+        }
+      }      
+    ]
+}

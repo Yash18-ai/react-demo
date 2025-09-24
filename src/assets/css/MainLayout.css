@@ -1,0 +1,35 @@
+.main-layout {
+  display: flex;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 220px;
+  min-height: 100vh;
+}
+
+.main-content.collapsed {
+  margin-left: 50px;
+}
+
+.header-fixed {
+  position: fixed;
+  top: 0;
+  left: 220px;
+  width: calc(100% - 220px);
+  z-index: 1030;
+}
+
+.main-content.collapsed .header-fixed {
+  left: 55px;
+  width: calc(100% - 55px);
+}
+
+.outlet-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-top: 56px;
+  padding: 1rem;
+}

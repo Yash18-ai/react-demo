@@ -1,0 +1,12 @@
+.dropdown-wrapper {
+  position: relative;
+}
+
+.dropdown-icon {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #6c757d; 
+}

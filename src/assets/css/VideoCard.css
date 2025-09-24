@@ -1,0 +1,32 @@
+.video-card {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .video-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .video-thumbnail {
+    height: 140px;
+    object-fit: cover;
+  }
+  
+  .play-icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+  
+  .video-title {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  

@@ -1,0 +1,115 @@
+:root {
+  --bg-base: #ffffff;
+  --text-base: #212529;
+  --card-bg: #ffffff;
+  --card-border: #dee2e6;
+  --table-bg: #ffffff;
+  --table-border: #dee2e6;
+  --table-striped: #f8f9fa;
+  --modal-bg: #ffffff;
+  --input-bg: #ffffff;
+  --input-border: #ced4da;
+}
+
+body.dark {
+  --bg-base: #121212;
+  --text-base: #e9ecef;
+  --card-bg: #2c2c2c;
+  --card-border: #444444;
+  --table-bg: #2c2c2c;
+  --table-border: #444444;
+  --table-striped: #3a3a3a;
+  --modal-bg: #2c2c2c;
+  --input-bg: #3a3a3a;
+  --input-border: #555555;
+}
+
+
+body {
+  background: var(--bg-base) !important;
+  color: var(--text-base) !important;
+}
+
+.card {
+  background: var(--card-bg) !important;
+  color: var(--text-base) !important;
+  border: 1px solid var(--card-border) !important;
+}
+
+.table {
+  background: var(--table-bg) !important;
+  color: var(--text-base) !important;
+}
+
+.table th,
+.table td {
+  border-color: var(--table-border) !important;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+  background-color: var(--table-striped) !important;
+}
+
+.modal-content {
+  background: var(--modal-bg) !important;
+  color: var(--text-base) !important;
+}
+
+.form-control,
+.form-select {
+  
+  background: var(--input-bg) !important;
+  color: var(--text-base) !important;
+  border: 1px solid var(--input-border) !important;
+  border-radius: 50px;
+}
+
+.navbar,
+.footer,
+.toast-container .Toastify__toast {
+  background: var(--bg-base) !important;
+  color: var(--text-base) !important;
+}
+
+.table thead th {
+  background-color: var(--table-bg) !important;
+  color: var(--text-base) !important;
+}
+
+.table tbody td {
+  background-color: var(--table-bg) !important;
+  color: var(--text-base) !important;
+}
+
+.table tbody td * {
+  color: var(--text-base) !important;
+}
+
+.text-base {
+  color: var(--text-base) !important;
+}
+
+.form-control::placeholder {
+  color: var(--text-base);
+  opacity: 0.7;
+}
+
+/* body.dark .btn-close {
+  filter: invert(1);
+} */
+
+.btn-outline-secondary {
+  color: var(--text-base) !important;
+  border-color: var(--card-border) !important;
+}
+
+.btn-outline-secondary:hover {
+  background-color: var(--card-border) !important;
+  color: var(--bg-base) !important;
+}
+
+body.dark .list-group-item {
+  background-color: var(--card-bg) !important;
+  color: var(--text-base) !important;
+  border-color: var(--card-border) !important;
+}

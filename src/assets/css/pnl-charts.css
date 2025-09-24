@@ -1,0 +1,133 @@
+/* pnl-charts.css - external styles for PNL charts area */
+
+/* Card wrapper captured for PDF */
+.pnl-chart-card {
+    background: linear-gradient(180deg, #fbfcff 0%, #ffffff 100%);
+    border-radius: 10px;
+    padding: 18px;
+    box-shadow: 0 10px 30px rgba(21, 32, 43, 0.06);
+    margin-bottom: 28px;
+  }
+  
+  /* Header */
+  .pnl-chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+  }
+  .pnl-title {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #111827;
+  }
+  .pnl-subtitle {
+    color: #6b7280;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  /* Summary cards row */
+  .pnl-summary-row {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 18px;
+    flex-wrap: wrap;
+  }
+  .summary-card {
+    flex: 1 1 180px;
+    padding: 14px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(17, 24, 39, 0.04);
+    background: #fff;
+  }
+  .summary-label {
+    font-size: 12px;
+    color: #6b7280;
+    margin-bottom: 6px;
+  }
+  .summary-value {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+  .summary-sub {
+    font-size: 12px;
+    color: #9ca3af;
+  }
+  
+  /* color accents */
+  .summary-sales .summary-value { color: #2F80ED; }
+  .summary-expenses .summary-value { color: #EB5757; }
+  .summary-profit .summary-value { color: #17B890; }
+  
+  /* Charts row: left = pie, right = bar */
+  .charts-row {
+    display: flex;
+    gap: 18px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  /* Pie container - larger size */
+  .pie-container {
+    flex: 1 1 460px;
+    min-width: 360px;
+    max-width: 900px;
+    height: 420px; /* larger for clarity */
+    background: transparent;
+    padding: 8px;
+  }
+  
+  /* Bar container */
+  .bar-container {
+    flex: 1 1 420px;
+    min-width: 300px;
+    max-width: 520px;
+    background: transparent;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  .bar-header {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #111827;
+  }
+  .bar-chart {
+    height: 260px;
+  }
+  
+  /* Chart canvases: make them occupy the container */
+  .pie-container canvas,
+  .bar-chart canvas {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  
+  /* Legend spacing: Chart.js legend inside canvas will be to the right; add extra right margin for the container */
+  .pie-container {
+    padding-right: 28px;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 1100px) {
+    .charts-row {
+      flex-direction: column;
+    }
+    .pie-container, .bar-container {
+      max-width: 100%;
+      min-width: 100%;
+      height: 420px;
+    }
+  }
+  
+  /* small helpers for PDF preview modal so it looks clean */
+  .modal-body iframe {
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+  }
+  

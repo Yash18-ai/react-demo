@@ -1,0 +1,221 @@
+.message-search-overlay{
+    position: absolute;
+    top: 64px;
+    left: 0;
+    right: 0;
+    z-index: 1500;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    pointer-events: auto;
+  }
+  
+  /* main card */
+  .message-search-card{
+    width: 820px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,0.06);
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  /* top controls */
+  .ms-top{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    background: linear-gradient(90deg, #f8f9fa, #f5f6f6);
+    border-bottom: 1px solid rgba(0,0,0,0.04);
+  }
+  
+  /* container for inputs */
+  .ms-controls{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex: 1;
+  }
+  
+  /* text input */
+  .ms-input{
+    flex: 1;
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,0.08);
+    outline: none;
+    font-size: 14px;
+  }
+  
+  /* sender select */
+  .ms-select{
+    width: 190px;
+    padding: 8px 10px;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,0.08);
+    background: #fff;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  /* date input */
+  .ms-date{
+    width: 160px;
+    padding: 8px 10px;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,0.08);
+    font-size: 14px;
+    outline: none;
+  }
+  
+  /* close button */
+  .ms-close-btn{
+    background: transparent;
+    border: none;
+    padding: 6px;
+    margin-left: 6px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    border-radius: 6px;
+  }
+  
+  /* body */
+  .ms-body{
+    max-height: 45vh;
+    overflow-y: auto;
+    padding: 8px;
+  }
+  
+  /* header inside body: left count, right meta */
+  .ms-body-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 6px;
+    border-bottom: 1px dashed rgba(0,0,0,0.04);
+    margin-bottom: 8px;
+  }
+  
+  .ms-result-count, .ms-sorting{
+    color: #666;
+    font-size: 12px;
+  }
+  
+  /* empty state */
+  .ms-empty{
+    padding: 36px;
+    text-align: center;
+    color: #888;
+  }
+  
+  /* list */
+  .ms-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* item */
+  .ms-item{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background .12s ease;
+    margin-bottom: 6px;
+  }
+  
+  .ms-item:hover{
+    background: #f5fdf6; /* subtle green-ish hover like whatsapp */
+  }
+  
+  /* avatar */
+  .ms-avatar{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 1px solid rgba(0,0,0,0.04);
+  }
+  
+  /* content area */
+  .ms-content{
+    flex: 1;
+    min-width: 0;
+  }
+  
+  /* top row: title + time */
+  .ms-top-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .ms-title{
+    font-size: 14px;
+    color: #111;
+  }
+  
+  .ms-time{
+    font-size: 12px;
+    color: #888;
+    white-space: nowrap;
+  }
+  
+  /* snippet text */
+  .ms-snippet{
+    margin-top: 6px;
+    font-size: 13px;
+    color: #222;
+    line-height: 1.2;
+  }
+  
+  /* small reply meta */
+  .ms-reply{
+    margin-top: 6px;
+    font-size: 12px;
+    color: #666;
+  }
+  
+  /* no text fallback */
+  .ms-no-text{
+    color: #999;
+    font-style: italic;
+  }
+  
+  /* highlight style similar to whatsapp */
+  .ms-highlight{
+    background: #fff3b0; /* light yellow */
+    padding: 0 2px;
+    border-radius: 3px;
+  }
+  
+  /* responsive */
+  @media (max-width: 900px){
+    .message-search-card{
+      width: calc(100% - 24px);
+      margin: 0 12px;
+    }
+  }
+  
+  @media (max-width: 520px){
+    .ms-select, .ms-date{
+      display: none;
+    }
+    .ms-input{
+      font-size: 13px;
+    }
+    .ms-avatar{
+      width: 36px;
+      height: 36px;
+    }
+  }
