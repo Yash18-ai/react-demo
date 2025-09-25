@@ -13,7 +13,6 @@ import categoryReducer from "../features/categories/categorySlice";
 import courseReducer from "../features/courses/courseSlice";
 import videoreducer from "../features/videos/videoSlice";
 import usersReducer from "../features/users/usersSlice";
-// import messageReducer, { initSocket } from "../features/messages/messagesSlice"; 
 import messageReducer from "../features/messages/messagesSlice";
 import { initSocket } from '../services/socket';
 
